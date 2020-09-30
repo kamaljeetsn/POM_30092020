@@ -43,7 +43,7 @@ public class BookNowTest extends BaseTest{
 		}
 		test.log(LogStatus.INFO, "Starting Test");
 		test.log(LogStatus.INFO, "Open Browser");
-		launchBrowser("Chrome");
+		launchBrowser("Firefox");
 		System.out.println("After Calling Launch Browser");
 		//System.setProperty("webdriver.chrome.driver", "D:\\Trainings\\Selenium\\WorkspaceP\\Drivers\\chromedriver.exe");
 		//WebDriver driver = new ChromeDriver();//driver is initialized over here thus same driver needs to be shared across the page class
