@@ -42,6 +42,7 @@ public class BaseTest {
 					//ops.addArguments("--proxy-server=http://localhost:9090");
 					driver = new ChromeDriver(ops);
 				}else if(browserName.equals("Firefox")){
+					System.out.println("inside firefox");
 					FirefoxOptions fops = new FirefoxOptions();
 					FirefoxProfile profile = new FirefoxProfile();
 					//notifications handling
