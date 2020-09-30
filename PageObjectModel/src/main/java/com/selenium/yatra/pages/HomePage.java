@@ -93,7 +93,7 @@ public class HomePage extends BasePage{
 		driver.findElement(By.xpath("//*[@id='BE_flight_origin_date']")).click();
 //		driver.findElement(By.xpath("klp'/P;/")).click();
 		driver.findElement(By.xpath("//table/tbody/tr/td[@data-date='"+data.get("FromDate")+"']")).click();
-		driver.findElement(By.xpath("//table/tbody/tr/td[@data-date='30/09/2020']")).click();
+		driver.findElement(By.xpath("//table/tbody/tr/td[@data-date='"+data.get("ToDate")+"']")).click();
 		driver.findElement(By.xpath("//*[@id='BE_flight_paxInfoBox']/i")).click();
 		int Adult = 4;
 		String readAdult = driver.findElement(By.cssSelector("div[data-flightagegroup='adult']>span.pax-title>span.adultcount")).getText();
