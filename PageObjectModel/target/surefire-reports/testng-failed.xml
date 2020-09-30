@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [POMFramework]" parallel="tests">
+  <test thread-count="5" verbose="0" name="BookNowTest(failed)" parallel="tests">
+    <classes>
+      <class name="com.selenium.yatra.tests.BookNowTest">
+        <methods>
+          <include name="quit"/>
+          <include name="testBooking" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.selenium.yatra.tests.BookNowTest -->
+    </classes>
+  </test> <!-- BookNowTest(failed) -->
+</suite> <!-- Failed suite [POMFramework] -->

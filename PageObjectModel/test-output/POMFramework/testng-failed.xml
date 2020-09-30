@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [POMFramework]" parallel="methods">
+  <test name="BookNowTest(failed)" parallel="methods">
+    <classes>
+      <class name="com.selenium.yatra.tests.SearchFlightsTest">
+        <methods>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.selenium.yatra.tests.SearchFlightsTest -->
+      <class name="com.selenium.yatra.tests.BookNowTest">
+        <methods>
+          <include name="quit"/>
+          <include name="testBooking" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.selenium.yatra.tests.BookNowTest -->
+    </classes>
+  </test> <!-- BookNowTest(failed) -->
+</suite> <!-- Failed suite [POMFramework] -->

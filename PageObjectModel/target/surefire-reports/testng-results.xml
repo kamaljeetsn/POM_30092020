@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="POMFramework" duration-ms="40231" started-at="2020-09-29T00:56:20 IST" finished-at="2020-09-29T00:57:00 IST">
+    <groups>
+    </groups>
+    <test name="BookNowTest" duration-ms="40231" started-at="2020-09-29T00:56:20 IST" finished-at="2020-09-29T00:57:00 IST">
+      <class name="com.selenium.yatra.tests.BookNowTest">
+        <test-method status="PASS" signature="testBooking(java.util.Hashtable)[pri:0, instance:com.selenium.yatra.tests.BookNowTest@524d6d96]" name="testBooking" duration-ms="20695" started-at="2020-09-29T00:56:20 IST" data-provider="getData" finished-at="2020-09-29T00:56:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ToDate=30/09/2020, Origin=Pune, FromDate=29/09/2020, Arrival=New Delhi}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBooking -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.selenium.yatra.tests.BookNowTest@524d6d96]" name="quit" is-config="true" duration-ms="581" started-at="2020-09-29T00:56:40 IST" finished-at="2020-09-29T00:56:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="testBooking(java.util.Hashtable)[pri:0, instance:com.selenium.yatra.tests.BookNowTest@524d6d96]" name="testBooking" duration-ms="18285" started-at="2020-09-29T00:56:41 IST" data-provider="getData" finished-at="2020-09-29T00:56:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ToDate=30/09/2020, Origin=Pune, FromDate=29/09/2020, Arrival=New Delhi}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBooking -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.selenium.yatra.tests.BookNowTest@524d6d96]" name="quit" is-config="true" duration-ms="593" started-at="2020-09-29T00:56:59 IST" finished-at="2020-09-29T00:57:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.selenium.yatra.tests.BookNowTest -->
+    </test> <!-- BookNowTest -->
+  </suite> <!-- POMFramework -->
+</testng-results>
